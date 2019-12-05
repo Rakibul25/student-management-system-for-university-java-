@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Homecontroller">
+   <children>
+      <ImageView fitHeight="50.0" fitWidth="178.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true" y="2.0">
+         <image>
+            <Image url="@header-logo.png" />
+         </image>
+      </ImageView>
+      <MenuBar layoutY="37.0" prefHeight="25.0" prefWidth="800.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Home" />
+          <Menu mnemonicParsing="false" text="Student account">
+            <items>
+              <MenuItem fx:id="payment" mnemonicParsing="false" onAction="#handlemenu" text="Payments" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Registration">
+            <items>
+              <MenuItem fx:id="preadvising" mnemonicParsing="false" onAction="#handlemenu" text="Pre Advising/Section Selection" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="My view">
+              <items>
+                <MenuItem fx:id="result" mnemonicParsing="false" onAction="#handlemenu" text="Result history" />
+                  <MenuItem fx:id="classroutine" mnemonicParsing="false" onAction="#handlemenu" text="Class Routine" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+      <Button fx:id="btn1" layoutX="727.0" layoutY="7.0" mnemonicParsing="false" onAction="#Logout" text="Log Out" textFill="#a88d0a">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text layoutX="286.0" layoutY="386.0" opacity="0.21" strokeMiterLimit="5.0" strokeType="INSIDE" strokeWidth="0.0" text="©Rakibul Islam(JAVA LAB PROJECT)" textAlignment="CENTER" underline="true" wrappingWidth="244.9830722808838" />
+   </children>
+</Pane>

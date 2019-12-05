@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PreAdvisingController">
+   <children>
+      <ImageView fitHeight="50.0" fitWidth="178.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true" y="2.0">
+         <image>
+            <Image url="@header-logo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn4" layoutX="660.0" layoutY="361.0" mnemonicParsing="false" onAction="#Home" prefHeight="25.0" prefWidth="126.0" text="Back to home" textFill="#a48507" />
+      <TextArea fx:id="txt1" layoutX="53.0" layoutY="73.0" prefHeight="273.0" prefWidth="288.0" />
+      <CheckBox fx:id="cb1" layoutX="350.0" layoutY="113.0" mnemonicParsing="false" onAction="#handlecheckbox1" prefHeight="17.0" prefWidth="126.0" text="Math" textFill="#c3ad0e" textOverrun="CENTER_ELLIPSIS">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <CheckBox fx:id="cb2" layoutX="350.0" layoutY="142.0" mnemonicParsing="false" onAction="#handlecheckbox2" prefHeight="17.0" prefWidth="126.0" text="Physics" textFill="#c3ad0e">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <CheckBox fx:id="cb3" layoutX="350.0" layoutY="170.0" mnemonicParsing="false" onAction="#handlecheckbox3" prefHeight="17.0" prefWidth="126.0" text="OOP" textFill="#c3ad0e">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <CheckBox fx:id="cb4" layoutX="350.0" layoutY="201.0" mnemonicParsing="false" onAction="#handlecheckbox4" prefHeight="17.0" prefWidth="126.0" text="OOP Lab" textFill="#c3ad0e">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <CheckBox fx:id="cb5" layoutX="350.0" layoutY="230.0" mnemonicParsing="false" onAction="#handlecheckbox5" prefHeight="17.0" prefWidth="126.0" text="Algorithm" textFill="#c3ad0e">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <CheckBox fx:id="cb6" layoutX="350.0" layoutY="261.0" mnemonicParsing="false" onAction="#handlecheckbox6" prefHeight="17.0" prefWidth="126.0" text="Accounting" textFill="#c3ad0e">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <CheckBox fx:id="cb7" layoutX="350.0" layoutY="293.0" mnemonicParsing="false" onAction="#handlecheckbox7" prefHeight="17.0" prefWidth="126.0" text="Data Structure" textFill="#c3ad0e">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </CheckBox>
+      <Text layoutX="350.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Course" underline="true" wrappingWidth="76.13671875">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <Text layoutX="546.0" layoutY="86.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Section" underline="true" wrappingWidth="76.13671875">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Text>
+      <CheckBox fx:id="s1" layoutX="523.0" layoutY="114.0" mnemonicParsing="false" onAction="#handlecheckbox1" text="A(8:30-10.00)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s2" layoutX="624.0" layoutY="114.0" mnemonicParsing="false" onAction="#handlecheckbox1" text="B(10:00-11:30)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s3" layoutX="523.0" layoutY="142.0" mnemonicParsing="false" onAction="#handlecheckbox2" text="A(8:30-10.00)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s4" layoutX="624.0" layoutY="142.0" mnemonicParsing="false" onAction="#handlecheckbox2" text="B(10:00-11:30)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s5" layoutX="523.0" layoutY="170.0" mnemonicParsing="false" onAction="#handlecheckbox3" text="A(8:30-10.00)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s6" layoutX="624.0" layoutY="170.0" mnemonicParsing="false" onAction="#handlecheckbox3" text="B(10:00-11:30)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s7" layoutX="523.0" layoutY="201.0" mnemonicParsing="false" onAction="#handlecheckbox4" text="A(8:30-10.00)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s8" layoutX="624.0" layoutY="201.0" mnemonicParsing="false" onAction="#handlecheckbox4" text="B(10:00-11:30)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s9" layoutX="523.0" layoutY="230.0" mnemonicParsing="false" onAction="#handlecheckbox5" text="A(8:30-10.00)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s10" layoutX="624.0" layoutY="230.0" mnemonicParsing="false" onAction="#handlecheckbox5" text="B(10:00-11:30)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s11" layoutX="523.0" layoutY="261.0" mnemonicParsing="false" onAction="#handlecheckbox6" text="A(8:30-10.00)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s12" layoutX="624.0" layoutY="261.0" mnemonicParsing="false" onAction="#handlecheckbox6" text="B(10:00-11:30)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s13" layoutX="523.0" layoutY="293.0" mnemonicParsing="false" onAction="#handlecheckbox7" text="A(8:30-10.00)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <CheckBox fx:id="s14" layoutX="624.0" layoutY="293.0" mnemonicParsing="false" onAction="#handlecheckbox7" text="B(10:00-11:30)">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></CheckBox>
+      <Button fx:id="btn6" layoutX="464.0" layoutY="334.0" mnemonicParsing="false" onAction="#add" text="Add" textFill="#aba919">
+         <cursor>
+            <Cursor fx:constant="OPEN_HAND" />
+         </cursor>
+      </Button>
+   </children>
+</Pane>

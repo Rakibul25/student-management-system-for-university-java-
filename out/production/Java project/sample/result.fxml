@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ResultController">
+   <children>
+      <ImageView fitHeight="50.0" fitWidth="178.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true" y="2.0">
+         <image>
+            <Image url="@header-logo.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="99.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Result table here" wrappingWidth="402.13671875">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="btn3" layoutX="676.0" layoutY="361.0" mnemonicParsing="false" onAction="#Home" prefHeight="25.0" prefWidth="110.0" text="Back to home" textFill="#b2a229">
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+   </children>
+</Pane>
